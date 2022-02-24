@@ -1,25 +1,29 @@
-# hello
-## helloworld
-### 3
-
-xm|xinb|zhn
---|--|--
-dsa|sad|das
-3|2|3
->asdnia
->>dash
->>>auhsduas
----
-***
-![](C:\Users\韩恺荣\Desktop\节能减排)
-+ ds
-    + sd
-        + dsa
-             sdad<h6 id='asd'>dashdajxadhajhjdahjshjdahjkhdhaksshdhahdhahhdshjahjhjdhsjahjdhjashjhdjahjhjdajhsdhjhsjhjahjdhjhjahjhj<br />sdjhadasjhdhjjhdajdjasjh
-+ gg
-+ a|b|c
-  -|-|-
-  sa|sda|d
-  dsa|fs|sd
-$\sum_{i=1}^n a_i$
-[dianw](#asd)
+# markdown 学习笔记
+## markdown 语法汇总
+### 一、关于字体的语法：
+1. 使用‘***’包裹表示加粗加斜 如： ***你好***
+2. 使用‘**’包裹表示加粗 如： **粗**
+3. 使用‘\*’与‘\*’包裹表示斜体，如： *斜*
+4. 转义字符要学会灵活运用
+### 二、关于表格的一些知识点：
++ 表格的使用需要通过一些字符来实现
+  - 使用“|”和“-:”来设置表格，如下;<br />
+    姓名|班级|成绩
+    -|-|- 
+    韩一|六班|100
+    张五|五班|60
+  - 其中，:表示对齐方式和方位
+### 三、关于图片和超链接的内容：
++ 图片部分<br>
+  图片和超链接的添加格式非常类似，他们用的格式如下：<br>
+  "\!\[图片名字\]\(链接地址\)"如：
+  ![节能减排](节能减排图片.jpeg) &emsp;插入本地图片时，放在同一个文件夹里就ok
+- 超链接部分，非常简单，把图片部分的感叹号删去即可
+### 三、特殊符号的使用
+1. 段落层次方面：‘* + -’都是可以的
+2. 当要打出空格时，使用‘\&emsp;’即可。
+3. 居中符号'\<center\>'和‘\<\/center\>'包裹就好如<br><center>center</center>非常神奇和nb
+4. 要换行，就打\<br\>即可<h id=maodian></h>
+5. 改变字体的大小或者颜色：<font size =1>小</font>变回去了，<font color=red>red</font>很牛逼
+6. 要打出数学公式时：'\$'包裹就好了如：$f(x)=\sum_{i=1}^n a_{i^3}^2$,当然你如果要换行打的话，也很简单，两个\$就好。其他具体的公式自己上网去查
+7. 如何使用锚点定位？很简单 [点我去4](#maodian),格式如下:\[content\]\(\#position\)是链接所在地点，他会链接到\<h id=position\><\/h>
